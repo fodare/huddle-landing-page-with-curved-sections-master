@@ -1,0 +1,26 @@
+body {
+	margin-top: 0;
+}
+/* Logo-Area */
+.Logo-Button {
+	margin-top: 40px;
+	margin-bottom: 100px;
+}
+.company-logo {
+	margin-left: 50px;
+}
+.Try-button {
+	color: #f6c6e5;
+	border: 1px solid #f6c6e5;
+	font-weight: bold;
+	float: right;
+	margin-right: 50px;
+}
+/* Footer Area */
+.attribution {
+	font-size: 11px;
+	text-align: center;
+}
+.attribution a {
+	color: hsl(228, 45%, 44%);
+}
