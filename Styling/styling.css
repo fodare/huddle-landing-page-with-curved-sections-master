@@ -1,82 +1,91 @@
 body {
-	margin-top: 0;
-	font-family: "Open Sans", sans-serif;
+  margin-top: 0;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
-	font-weight: bold;
-	font-size: 4rem;
+  font-weight: bold;
+  font-size: 4rem;
 }
 
 /* Logo-Area */
 .Logo-Button {
-	margin-top: 40px;
-	margin-bottom: 100px;
+  margin-top: 40px;
+  margin-bottom: 100px;
 }
 .company-logo {
-	margin-left: 50px;
+  margin-left: 50px;
 }
 .Try-button {
-	color: #f6c6e5;
-	border: 1px solid #f6c6e5;
-	font-weight: bold;
-	float: right;
-	margin-right: 50px;
+  color: #f6c6e5;
+  border: 1px solid #f6c6e5;
+  font-weight: bold;
+  float: right;
+  margin-right: 50px;
 }
 
 /* Community Area  */
 #Community {
-	text-align: center;
+  text-align: center;
 }
 .Mockup {
-	width: 100%;
+  width: 100%;
 }
 .community-message {
-	color: #aebabb;
-	font: bold;
+  color: #aebabb;
+  font: bold;
 }
 .Free-button {
-	background-color: #f252c1;
-	padding-top: 15px;
-	padding-bottom: 15px;
-	padding-right: 20px;
-	padding-left: 20px;
-	margin-top: 20px;
-	margin-bottom: 100px;
-	color: #fff;
-	font: bold;
+  background-color: #f252c1;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  padding-right: 20px;
+  padding-left: 20px;
+  margin-top: 20px;
+  margin-bottom: 100px;
+  color: #fff;
+  font: bold;
 }
 /* Count Area */
 #Count {
-	text-align: center;
+  text-align: center;
 }
 .count-div {
-	margin-top: 100px;
+  margin-top: 100px;
 }
 .row {
-	text-align: left;
+  text-align: left;
 }
 .count-message {
-	color: #aebabb;
+  color: #aebabb;
 }
 .count-logo {
-	width: 30px;
+  width: 30px;
 }
 #Fans-count {
-	text-align: center;
+  text-align: center;
 }
 .count-header {
-	font-size: 6rem;
+  font-size: 6rem;
 }
 .count-body {
-	padding: 100px;
+  padding: 100px;
 }
+
+/* Grow Together Area */
+#Grow-Together {
+  text-align: center;
+}
+.grow-image {
+  width: 50%;
+}
+
 /* Footer Area */
 .attribution {
-	font-size: 11px;
-	text-align: center;
+  font-size: 11px;
+  text-align: center;
 }
 
 .attribution a {
-	color: hsl(228, 45%, 44%);
+  color: hsl(228, 45%, 44%);
 }
