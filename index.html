@@ -42,8 +42,10 @@
 		<link
 			href="https://fonts.googleapis.com/css2?family=Open+Sans&display=swap"
 			rel="stylesheet"
-		/>
-
+    />
+    
+    <!-- Font Awesome area -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
 		<!-- Personal CSS File -->
 		<link rel="stylesheet" type="text/css" href="Styling/styling.css" />
 
@@ -84,7 +86,7 @@
 					/>
         </div>
       </section>
-      
+      <!-- Fans- count area -->
       <section id="Fans-count">
 				<div class="container count-div">
 					<div class="row">
@@ -109,34 +111,120 @@
 					</div>
 				</div>
 			</div>
-		</section>
-
-
+    </section>
+    
 		<!-- Grow Together Area -->
 		<section id="Grow-Together">
-			<div class="container">
+			<div class="container container-grow">
 			<div class="row">
 				<div class="col-lg-6">
-					<h2>Grow Together</h2>
-					<p>Generate meaninigful discussions with your audience and build a <br>
+					<h2 class="grow-heading">Grow Together</h2>
+					<p class="grow-message">Generate meaninigful discussions with your audience and build a <br>
 					strong, loyal community. Think of the insightful conversations you <br>
 					mis out on with a feedback form.</p>
-
 				</div>
 				<div class="col-lg-6">
-					<img class="grow-image" src="images/illustration-grow-together.svg" alt="Grow-img">
+          <img class="grow-image" src="images/illustration-grow-together.svg" alt="Grow-img">
 				</div>
-
 			</div>
 		</div>
-		</section>
+    </section>
+
+    <!-- Flowing Conversation Area -->
+    <section id="Flowing-Conversations">
+      <div class="container">
+        <div class="row container-grow2">
+          <div class="col-lg-6">
+            <img class="illus-img" src="images/illustration-flowing-conversation.svg" alt="">
+          </div>
+          <div class="col-lg-6">
+            <h2 class="grow-heading">Flowing Conversations</h2>
+            <p class="grow-message">You wouldn't paginate a conversation in real life, so why do it online? <br>
+            Our threads have just-in-time loading for a more naturak flow. </p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Your User area -->
+    <section id="#Your-User">
+      <div class="container">
+        <div class="row user-body">
+          <div class="col-lg-6">
+            <h2 class="grow-heading">
+              Your Users
+            </h2>
+            <p class="grow-message">
+              It takes no time at all to integrate Huddle with your app's <br>
+              authentication solution. This means, once signed in to your apps, your <br>
+              users can start chatting immidiately.
+            </p>
+          </div>
+          <div class="col-lg-6">
+            <img class="User-img" src="images/illustration-your-users.svg" alt="">
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+    <!-- Ready To build Community Area -->
+    <section id="Redy-Community">
+      <div class="container">
+        <div class="Ready-body">
+          <h1>Ready To Build your Community?</h1>
+          <button type="button" class="btn rounded-pill Free-button">
+            Get Started For Free
+          </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer Area -->
+    <section id="For-color">
+
+   
 		<footer>
+      <div class="row footer-div">
+        <div class="col-lg-6">
+          <img class="small-logo" src="images/icon-messages.svg" alt=""><span class="Footer-Name">Huddle</span>
+          <p class="small-footer-message">
+            Lorem ipsum dolor sit amet, consectetur <br>
+            adipiscing ellt. Mauris nulla quam, hendrerit <br>
+            lacinia vestibulum a, ultrices quis sem.
+          </p>
+          <div class="contact-form">
+            <img src="images/icon-phone.svg" alt=""> <span>Phone: +1-543-123-4567</span>
+            <br>
+            <img src="images/icon-email.svg" alt=""><span>example@huddle.com</span>
+          </div>
+          <div class="social-buttons">
+            <i class="fab fa-facebook-square social-icon fa-2x"></i>
+            <i class="fab fa-instagram social-icon fa-2x "></i>
+            <i class="fab fa-twitter-square social-icon fa-2x "></i>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          <h2>NEWSLETTER</h2>
+          <p>To receive tips on how to grow your <br>
+          community, sign up to our weekly newsletter. <br>
+          We'll never send you spam or pass on your <br>
+          eamil address
+        </p>
+        <input type="email" class="form-control-md">
+        <a class="btn btn-primary" href="#" role="button">
+          Subsribe
+        </a>
+        </div>
+      </div>
 			<p class="attribution">
 				Challenge by
 				<a href="https://www.frontendmentor.io?ref=challenge" target="_blank"
 					>Frontend Mentor</a
 				>. Coded by <a href="#">Damilare Olatunbosun Folorunso.</a>.
 			</p>
-		</footer>
+    </footer>
+  </section>
 	</body>
 </html>
